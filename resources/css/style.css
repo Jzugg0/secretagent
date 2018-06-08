@@ -65,6 +65,7 @@ li{
   background-color: white;
   flex-wrap: nowrap;
   justify-content: center;
+  width: 100%;
 
 }
 .content-child img{
@@ -74,7 +75,7 @@ li{
 .content-child{
   display: inline-flex;
   margin: 3rem 1rem;
-  width: 23%;
+  width: 30%;
 }
 #pen,
 #watch,
@@ -96,4 +97,31 @@ li{
 }
 #pen{
   margin-left: 6rem;
+}
+.info-container{
+  background-color: white;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.info-child{
+  background-color: black;
+  display: flex;
+  margin: 3rem 2rem 4rem 2rem;
+  width: 35%;
+  padding-left: 2rem;
+  position: relative;
+  left: 2.3rem;
+}
+.holder-main{
+  display: flex;
+  flex-direction: column;
+}
+footer{
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  text-align: left;
+  width: 100%;
 }
