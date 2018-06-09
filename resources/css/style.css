@@ -57,6 +57,9 @@ h3{
 li{
   list-style-type: none;
 }
+#menu{
+  display: none;
+}
 .navbar li{
   padding: 0.75rem 3rem 0.75rem 3rem;
 }
@@ -124,4 +127,72 @@ footer{
   height: 5rem;
   text-align: left;
   width: 100%;
+  padding-left: 4rem;
+}
+#list-hidden{
+  display: none;
+}
+@media only screen and (max-width: 1024px){
+  #glasses{
+    display: none;
+  }
+  #pen,
+  #watch{
+    width: 47%;
+  }
+  .info-child{
+    width: 35%;
+  }
+  .navbar .list{
+    display: none;
+  }
+  #list-hidden{
+    display: inline-flex;
+    font-size: 1rem;
+  }
+  .content-main-child{
+    left: 0;
+  }
+}
+@media only screen and (max-width: 470px){
+  #pen{
+    width: 90%;
+  }
+  .content-main-container{
+    display: relative;
+    height: 15rem;
+    width: 100%;
+    justify-content: center;
+  }
+  .content-main-child{
+    width: 100%;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    top: 9.5rem;
+    height: auto;
+  }
+  .content-main-container h3{
+    font-size: 0.77rem;
+  }
+  .content-main-child h1{
+    font-size: 1rem;
+  }
+  #watch{
+    display: none;
+  }
+  .info-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .info-child{
+    left: 0;
+    width: 90%;
+    margin-left: .25rem;
+  }
+  #pen{
+    margin-left: 1rem;
+  }
+  header{
+    margin-left: .5rem;
+  }
 }
